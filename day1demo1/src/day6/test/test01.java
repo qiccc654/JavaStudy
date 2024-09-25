@@ -1,6 +1,6 @@
 package day6.test;
 
-import day6.bin.School;
+
 class Student {
    private String name;
    private String brand;
