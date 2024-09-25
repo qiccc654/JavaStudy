@@ -1,6 +1,6 @@
 package day7.neum;
 enum Gender {
-    MALE, FEMALE
+    MALE, FEMALE;
 }
 
 public class Test071_EnumBasic {
