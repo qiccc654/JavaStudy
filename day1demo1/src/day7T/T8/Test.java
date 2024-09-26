@@ -6,17 +6,17 @@ interface Inner{
     void show();
 }
 class Outer{
-   static void method(){
-        new Inner() {
-            @Override
-            public void show() {
-                System.out.println("HelloWorld");
-            }
-        };
+   static Inner method(){
+      return new Inner() {
+          @Override
+          public void show() {
+              System.out.println("show");
+          }
+      };
     }
 }
 public class Test {
     public static void main(String[] args) {
-        Outer.method();
+        Outer.method().show();
     }
 }
