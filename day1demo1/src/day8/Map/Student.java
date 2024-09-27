@@ -1,7 +1,4 @@
-package day8;
-
-
-
+package day8.Map;
 
 import java.util.Objects;
 

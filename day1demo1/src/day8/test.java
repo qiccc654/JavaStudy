@@ -1,8 +1,13 @@
 package day8;
 
+
+
+
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.TreeMap;
 
 public class test {
     public static void main(String[] args) {
@@ -20,8 +25,8 @@ public class test {
         coll.add(s3);
         coll.add(s4);
         System.out.println("-----------foreach");
-        for (Student student : coll) {
-            System.out.println(student);
+        for (Student Student : coll) {
+            System.out.println(Student);
         }
         System.out.println("--------------iterator");
         Iterator<Student> iterator = coll.iterator();
@@ -45,5 +50,6 @@ public class test {
         System.out.println("coll.size: " +
                 coll.size());
         System.out.println("coll: " + coll);
+
     }
 }
