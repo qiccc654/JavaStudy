@@ -37,6 +37,7 @@ public class T11 {
                     }
                     if (i >= win) {
                         winner = "兔子";
+                        break;
                     }
                 }
             }
@@ -61,6 +62,7 @@ public class T11 {
                     }
                     if (j >= win) {
                         winner = "乌龟";
+                        break;
                     }
                 }
             }
